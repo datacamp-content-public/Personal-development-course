@@ -1,26 +1,27 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+  title: "The basics of using R"
+  description: "This chapter will serve as a gentle introduction to using R."
 ---
 
-## An exercise title written in sentence case
+## Simple calculations in R
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: r
-xp: 100
+xp: 100 
 skills: 1
-key: 4a142e7366
+key: 41d45aef32   
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
+We will start out by running some simple calculations in R. 
+
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- What is the result of calculating `abs(5)`?
+- What is the result of calculating `abs(-5)`?
+- Let's try to get help on the `abs()` function. Type `help(abs)` into the console.
+- Try what happens if you type `?abs` instead.
 
 `@hint`
 - Here is the hint for this setup problem. 
@@ -51,6 +52,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 `@solution`
 
 ```{r}
+help(pi) #This displays the help for
 # Answer goes here
 # Make sure to match the comments with your sample code
 # to help students see the differences from solution
@@ -61,5 +63,70 @@ The instructions that follow should be in bullet point form with clear guidance 
 
 ```{r}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Good job! Now you know how to get help for a specific R command!")
+```
+
+---
+
+## Getting help in R
+
+```yaml
+type: NormalExercise
+lang: r
+xp: 100
+skills: 1
+key: 676ff8bf69
+```
+
+
+The first thing you should know is how to get help in R.
+
+
+`@instructions`
+- What is the result of calculating `abs(5)`?
+- What is the result of calculating `abs(-5)`?
+- Let's try to get help on the `abs()` function. Type `help(abs)` into the console.
+- Try what happens if you type `?abs` instead.
+
+`@hint`
+- Here is the hint for this setup problem. 
+- It should get students 50% of the way to the correct answer.
+- So don't provide the answer, but don't just reiterate the instructions.
+- Typically one hint per instruction is a sensible amount.
+
+`@pre_exercise_code`
+
+```{r}
+# Load datasets and packages here.
+```
+
+`@sample_code`
+
+```{r}
+# Your
+# sample
+# code
+# should
+# be
+# ideally
+# 10 lines or less,
+# with a max
+# of 16 lines.
+```
+
+`@solution`
+
+```{r}
+help(pi) #This displays the help for
+# Answer goes here
+# Make sure to match the comments with your sample code
+# to help students see the differences from solution
+# to given.
+```
+
+`@sct`
+
+```{r}
+# Update this to something more informative.
+success_msg("Good job! Now you know how to get help for a specific R command!")
 ```
