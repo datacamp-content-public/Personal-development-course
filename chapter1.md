@@ -1,21 +1,19 @@
 ---
-  title: "The basics of using R"
-  description: "This chapter will serve as a gentle introduction to using R."
+title: 'The basics of using R'
+description: 'This chapter will serve as a gentle introduction to using R.'
 ---
 
 ## Simple calculations in R
 
 ```yaml
-type: NormalExercise 
+type: NormalExercise
+key: 41d45aef32
 lang: r
-xp: 100 
+xp: 100
 skills: 1
-key: 41d45aef32   
 ```
 
-
-We will start out by running some simple calculations in R. 
-
+We will start out by running some simple calculations in R.
 
 `@instructions`
 - What is the result of calculating `abs(5)`?
@@ -30,13 +28,11 @@ We will start out by running some simple calculations in R.
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{r}
 # Load datasets and packages here.
 ```
 
 `@sample_code`
-
 ```{r}
 # Your
 # sample
@@ -50,7 +46,6 @@ We will start out by running some simple calculations in R.
 ```
 
 `@solution`
-
 ```{r}
 help(pi) #This displays the help for
 # Answer goes here
@@ -60,7 +55,6 @@ help(pi) #This displays the help for
 ```
 
 `@sct`
-
 ```{r}
 # Update this to something more informative.
 success_msg("Good job! Now you know how to get help for a specific R command!")
@@ -72,15 +66,13 @@ success_msg("Good job! Now you know how to get help for a specific R command!")
 
 ```yaml
 type: NormalExercise
+key: 676ff8bf69
 lang: r
 xp: 100
 skills: 1
-key: 676ff8bf69
 ```
 
-
 The first thing you should know is how to get help in R.
-
 
 `@instructions`
 - What is the result of calculating `abs(5)`?
@@ -95,13 +87,11 @@ The first thing you should know is how to get help in R.
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{r}
 # Load datasets and packages here.
 ```
 
 `@sample_code`
-
 ```{r}
 # Your
 # sample
@@ -115,7 +105,6 @@ The first thing you should know is how to get help in R.
 ```
 
 `@solution`
-
 ```{r}
 help(pi) #This displays the help for
 # Answer goes here
@@ -125,7 +114,6 @@ help(pi) #This displays the help for
 ```
 
 `@sct`
-
 ```{r}
 # Update this to something more informative.
 success_msg("Good job! Now you know how to get help for a specific R command!")
